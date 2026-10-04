@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@next/dist/aos.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Fahad B Nasir | Web Developer</title>
+</head>
+
+<body>
+
+  <nav>
+
+    <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+      <span>Fahad</span> B Nasir
+    </div>
+
+    <div class="nav-container">
+
+      <div class="links">
+        <a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+          Home
+        </a>
+
+        <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+          Skills
+        </a>
+
+        <a href="#introduction" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+          Introduction
+        </a>
+
+        <a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          Services
+        </a>
+
+        <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+          Contact
+        </a>
+      </div>
+
+    </div>
+
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+    <div class="dropdown">
+
+      <div class="links">
+
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+
+        <i
+          class="fa-solid fa-xmark cancel"
+          onclick="cancel()"
+        ></i>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <section id="home">
+
+    <div class="main-container">
+
+      <div class="content">
+
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
+          Hey, I'm <span>Fahad!</span>
+        </h1>
+
+        <div
+          class="typewriter"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="800"
+        >
+          I'm a
+          <span class="typewriter-text"></span>
+          <label></label>
+        </div>
+
+        <p
+          data-aos="flip-down"
+          data-aos-duration="1500"
+          data-aos-delay="1000"
+        >
+          I build modern, high-performance web solutions with Python and
+          contemporary development technologies. I focus on clean architecture,
+          efficient backend systems, and intuitive user experiences, delivering
+          reliable solutions for both full-stack applications and business
+          automation.
+        </p>
+
+        <div class="social-links">
+
+          <a
+            href="https://www.instagram.com/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="1200"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/people/Fahad-Fade/pfbid0ejDYSWLwGu3u4H8Kox9v6xF21iDpEjWiPYE3g8dzp4TueyHkmLfnLEmcEgksmJSol/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="1300"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a
+            href="https://github.com/7Kullervo"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="1400"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/fahad-b-nasir-5a7986227/?isSelfProfile=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="1500"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div
+        class="image"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <img
+          src="image.png"
+          alt="Fahad B Nasir"
+        >
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      offset: 0
+    });
+  </script>
+
+</body>
+
+</html>
