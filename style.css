@@ -31,19 +31,16 @@ nav {
 
 .nav-container .logo {
   color: white;
+  position: absolute;
+  left: 15px;
+  top: 18px;
   font-size: 2rem;
   font-weight: bold;
-  position: absolute;
-  left: 40px;
-  top: 50%;
-  transform: translateY(-50%);
   white-space: nowrap;
 }
 
-.nav-container .logo span {
-  color: #b711e0 !important;
-  font-size: inherit;
-  font-weight: inherit;
+.logo span {
+  color: #b711e0;
   text-shadow: 0 0 10px #b711e0;
 }
 
