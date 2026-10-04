@@ -40,8 +40,10 @@ nav {
   white-space: nowrap;
 }
 
-.logo span {
-  color: #b711e0;
+.nav-container .logo span {
+  color: #b711e0 !important;
+  font-size: inherit;
+  font-weight: inherit;
   text-shadow: 0 0 10px #b711e0;
 }
 
