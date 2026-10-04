@@ -294,3 +294,175 @@ section {
     margin: 20px 20%;
   }
 }
+
+#contact {
+  width: 100%;
+  min-height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 80px 20px;
+}
+
+.contact-container {
+  width: 90%;
+  max-width: 900px;
+
+  text-align: center;
+}
+
+
+/* Heading */
+
+.contact-heading h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 20px;
+}
+
+.contact-heading h2 span {
+  color: #b711e0;
+  text-shadow: 0 0 10px #b711e0;
+}
+
+.contact-heading p {
+  max-width: 650px;
+
+  margin: 0 auto;
+
+  color: #ccc;
+
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+
+/* Contact Content */
+
+.contact-content {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 35px;
+}
+
+
+/* Contact Information */
+
+.contact-info {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  text-align: left;
+}
+
+.contact-item > i {
+  color: #b711e0;
+
+  font-size: 1.8rem;
+
+  text-shadow: 0 0 10px #b711e0;
+}
+
+.contact-item h3 {
+  color: white;
+
+  font-size: 1rem;
+
+  margin-bottom: 5px;
+}
+
+.contact-item a {
+  color: #ccc;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #b711e0;
+}
+
+
+/* Contact Button */
+
+.contact-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  padding: 14px 30px;
+
+  background-color: #b711e0;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  border: 2px solid #b711e0;
+  border-radius: 5px;
+
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: transparent;
+
+  color: #b711e0;
+
+  box-shadow: 0 0 30px #b711e0;
+
+  transform: scale(1.05);
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  #contact {
+    min-height: 80vh;
+
+    padding: 60px 20px;
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 25px;
+  }
+
+  .contact-item {
+    width: 100%;
+    max-width: 300px;
+  }
+
+}
